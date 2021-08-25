@@ -27,7 +27,7 @@ header{
 {
     grid-row-start:1;
     grid-row-end:3;
-    padding: 0 auto;
+    padding: 20px 15px 0px 15px;
     margin: 0 auto;
 
 }
