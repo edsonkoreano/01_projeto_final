@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin:0;
+    
+    justify-content: flex-start;
+}
+header{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb( 14, 84, 65);
+   
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 5% 90% 5%; 
+    grid-template-columns: 1fr 3fr;
+    gap: 0px;
+    background-color: rgba(111, 167, 151);
+    width: 100%;
+    
+}
+
+.photo
+{
+    grid-row-start:1;
+    grid-row-end:3;
+    padding: 0 auto;
+    margin: 0 auto;
+
+}
+.titulo-form
+{
+   background-color: rgb(170, 146, 56) ;
+    grid-column-start:2;
+    grid-column-end:2;
+    text-align: center;
+    padding:0
+    
+}
+input
+{
+    height: 25px;
+    color: grey;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+select{
+    height: 25px;
+    border-radius: 5px;
+}
+.enviar
+{
+    grid-row:3;
+    grid-column:2;
+    padding:0;
+    
+}
+#botao
+{/*Ocupa toda largura do formulário*/
+    width: 100%;
+}
+
+#linha1-todas
+{
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 15px;
+}
+    #linha1-left{
+    display:flex;
+    flex-direction: column; /*Label acima do inputbox*/
+    justify-content: center;
+    align-items: left;
+    margin-right:25px;
+    width: 50%;
+    }
+    #linha1-right{
+    display: flex;
+    flex-direction: column; /*Label acima do inputbox*/
+    justify-content: flex-end;
+    align-items: right;
+    width: 50%;
+    margin-left:25px;
+    }
+/*Linha 2*/
+#linha2
+{
+    display:flex;
+    margin-bottom: 15px;
+}
+    /*Linha 2 esquerda*/
+    #linha2-left{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    width: 50%;
+    align-content: flex-start;
+    justify-content: space-between 10px;
+
+    margin-left: 0px;
+    
+    }
+        #linha2-left>div{
+        display: flex;
+        flex-direction: column;
+        }
+            .data{
+                width:20%
+                }
+            .data_ano{
+                width:40%
+            }
+            
+    /*Linha 2 direita*/
+    #linha2-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 20px;
+    width: 50%;
+    margin-left: 25px;
+    column-gap: 20px;
+    }
+        #linha2-right>div{
+        display: flex;
+        flex-direction: column;
+
+        }
+            
+/*Linha 3*/
+#linha3{
+    display:flex;
+    align-items: center;
+    margin-bottom: 15px;
+    }
+    /*Linha 3 esquerda*/
+    #linha3-left{
+        display: flex;
+        flex-direction: row;
+        
+        margin-right: 25px;
+        column-gap: 20px;
+        width: 50%;
+    }
+        #linha3-left>div{
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        }
+    /*Linha 3 direita*/
+    #linha3-right{
+        display: flex;
+        flex-direction: row;
+        margin-left: 25px;
+        column-gap: 20px;
+        width: 50%;
+    }
+    
+        #linha3-right>div{
+        display: flex;
+        flex-direction: column;
+    
+        }
+/*Linha 4*/
+#linha4-todas
+{
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+#linha4-left
+{
+    display:flex;
+    flex-direction: column; /*Label acima do inputbox*/
+    justify-content: center;
+    align-items: left;
+    margin-right: 25px;
+    width: 50%;
+   
+}
+#linha4-rigth 
+{
+    display: flex;
+    flex-direction: column; /*Label acima do inputbox*/
+    justify-content: center;
+    margin-left: 25px;
+    align-items: right;
+    width: 50%;
+    
+}
+#documents{
+    display: flex;
+
+    align-content: flex-start;
+    padding-bottom: 15px;
+
+    }
+
+    .documents-left{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        width: 50%;
+        margin-right: 25px;
+        
+    }
+        .documents-left>div
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    .documents-right{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin-left: 25px;
+        column-gap: 20px;
+       
+    }
+        .documents-right>div{
+        display: flex;
+        flex-direction: column;
+        }
+  
+
+

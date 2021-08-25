@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<header >
+    <img id="logo" src="" alt="LogoEmpresa">
+    <p>este é o cabecalho</p>
+</header>
+<body>
+
+<section class="grid">
+    <div class="titulo-form" >
+        <p>Faça sua inscrição</p>
+    </div>
+    <div class="photo" >
+        <!--<img src="imagens/teste_rh1.jpg" alt="teste de imagem">-->
+        <p>
+            a foto ficará aqui
+        </p>
+    </div>
+        <form action="" method="Post" target="_blank" enctype="multipart/form-data">
+            <h3>Dados pessoais</h3>
+            <div id="personal_data">
+                <div id="linha1-todas">
+                    <div id="linha1-left">
+                    <label  for="nome">Nome completo</label>
+                    <input id="fnome" type="text" placeholder="ex: João da Silva" name="nome">
+                    </div>
+                    <div id="linha1-right">
+                    <label for="objetivo">Cargo Pretendido</label>
+                    <input id="fobjetivo" type="text" placeholder="ex: FullStack" name="objetivo">
+                    </div> 
+                </div>  
+                 <div id="linha2">
+                    <div id="linha2-left">
+                        <div class="data">
+                            <label for="">Dia</label>
+                            <input id="data1" type="number">
+                        </div>
+                        <div class="data">
+                            <label for="">Mês</label>
+                            <input id="data2" type="number"> 
+                        </div>
+                        <div class="data_ano">
+                            <label for="">Ano</label>
+                            <input id="data3" type="number"> 
+                        </div>
+                      
+                          
+                    </div>
+                        <div id="linha2-right">
+                            <div>
+                                <label for="civil">Estado Civil</label>
+                                <select id="civil" name="n_civil" >
+                                    <option value="solterio">Solterio(a)</option>
+                                    <option value="casado">Casado(a)</option>
+                                    <option value="divorciado">Divorciado(a)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="genero">Gênero</label>
+                                <select id="genero" name="n_genero" >
+                                    <option value="masculino">Masculino</option>
+                                    <option value="feminino">Feminino</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div id="linha3">
+                        <div id="linha3-left">
+                            <div>
+                                <label for="estado">Estado</label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="cidade">Cidade</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div id="linha3-right">
+                            <div>
+                                <label for="bairro">Bairro</label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="cep">CEP</label>
+                                <input type="text">
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div id="linha4-todas">
+                        <div id="linha4-left">
+                            <label for="endereco">Endereço</label>
+                            <input type="text">
+                            <label for="tel1">Telefone fixo 1</label>
+                            <input type="text">
+                            <label for="tel2">Telefone fixo 2</label>
+                            <input type="text">
+                        </div>
+                        <div id="linha4-rigth">
+                            <label for="complemento">Complemento</label>
+                            <input type="text">
+                            <label for="celular">Celular</label>
+                            <input type="text">
+                            <label for="email">Email</label>
+                            <input type="email">
+                        </div>
+                    </div>
+            </div>
+            <h3>Documentos</h3>
+            <div id="documents">
+                
+                <div class="documents-left">
+                    <div>
+                        <label  for="rg">Identidade</label>
+                        <input id="frg" type="text" placeholder="ex: João da Silva" name="rg">
+                    </div>
+                    <div>
+                        <label for="objetivo">Cargo Pretendido</label>
+                        <input id="fcpf" type="text" placeholder="ex: FullStack" name="cpf">
+                    </div>
+                    
+                </div>
+                <div class="documents-right">
+                    <div>
+                        <label for="veiculo">Possui Veículo</label>
+                        <select name="n_veiculo" id="veiculo">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="habilitacao">Habilitação</label>
+                        <select name="n_habilitacao" id="habilitacao">
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                    </div>
+                   
+                </div>
+                
+            </div>
+            </form>
+        </div>
+
+        <div class="enviar" >
+           
+            <input id= "botao" type="button" value="Enviar!">
+        </div>
+    </section>
+
+</body>
+<!--<footer style="background-color: blueviolet;">
+        <p>este é o rodape</p>
+    </footer>
+-->
+</html>
